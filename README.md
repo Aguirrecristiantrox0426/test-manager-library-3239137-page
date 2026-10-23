@@ -1,50 +1,103 @@
-# test-manager-library-3239137-page
+# Manager Library - Public Website
 
-> **Prueba técnica · Ficha ADSO 3239137**
-> Horario: **viernes 23 de octubre de 2026, de 7:00 a. m. a 11:00 a. m.** (hora Colombia). Entrega a las **11:00 a. m.**
+## 1. Project Description
 
-Este repositorio es el **sitio público estático** de presentación de *Manager Library*; no habla con la API. **Empieza vacío a propósito**: se construye en el fork de cada aprendiz.
+Manager Library is a library management solution designed to organize and simplify library operations.
 
-## Instrucciones
+This repository contains the public static website for presenting the Manager Library project, its purpose, main features, and benefits.
 
-Cada aprendiz debe **crear el fork** de los seis repositorios del proyecto y **resolver el proyecto
-con el spec planteado**.
+The website serves as an informational entry point for people interested in learning about the system.
 
-1. Hacer fork, a su cuenta de GitHub, de cada repositorio de la tabla del final.
-2. Leer el spec en [`test-manager-library-3239137-docs`](https://github.com/code-sena/test-manager-library-3239137-docs).
-   Se entrega en dos versiones: `spec-python/` y `spec-.net/`.
-3. Desarrollar en los forks.
+## 2. Project Objectives
 
-## El reto se desarrolla con React y PHP (Laravel)
+The main objectives of the public website are:
 
-El spec está escrito para Python y para .NET, pero el reto **no** se hace en esos lenguajes:
+- Introduce the Manager Library project.
+- Explain the purpose and value of the system.
+- Present the main library management features.
+- Provide clear and organized information about the solution.
+- Offer a consistent and accessible browsing experience.
 
-| Capa | Tecnología del reto |
+## 3. Website Scope
+
+The public website focuses on informational content and product presentation.
+
+Its scope includes:
+
+- Project introduction.
+- Description of the system's main features.
+- Presentation of library management modules.
+- Information about the supported user roles.
+- General contact or project information, if required.
+
+The website does not implement library management operations.
+
+## 4. Technology Stack
+
+| Technology | Purpose |
 |---|---|
-| Frontend | React |
-| Backend | PHP con Laravel |
+| HTML5 | Website content and structure. |
+| CSS3 | Visual presentation and styling. |
+| JavaScript | Client-side interactions, when necessary. |
 
-Lo que el spec define sobre el negocio —historias, criterios de aceptación, reglas, contrato de la
-API, modelo de datos— se respeta. Lo que define sobre la tecnología se traduce a React y Laravel.
+The website is intended to be static and independent of the backend API.
 
-## La prueba no consiste en escribir el código
+## 5. Main Website Sections
 
-El propósito principal es ver la **capacidad de desempeño con SDD** (*Spec-Driven Development*,
-desarrollo guiado por especificación): cómo se lee, se interpreta y se aplica una especificación
-para llevarla a un stack distinto. El código es el medio, no el fin.
+The proposed website may include the following sections:
 
-## Entrega
+- **Home:** Introduction to Manager Library.
+- **About:** Project description and objectives.
+- **Features:** Main capabilities of the library management system.
+- **Modules:** Overview of the system's functional areas.
+- **Benefits:** Advantages of organizing library operations.
+- **Contact:** General project contact information, if required.
 
-Cuenta lo que quede **subido a los forks antes de las 11:00 a. m.** Lo que llegue después no se revisa.
-No hay prórroga: suban avances parciales con commits pequeños durante la prueba.
+These sections represent the proposed content organization and are not a confirmation of implemented pages.
 
-## Los seis repositorios
+## 6. Architecture
 
-| Repositorio | Qué va ahí |
+The website follows a static presentation approach.
+
+Its main responsibilities are:
+
+- Display informational content.
+- Organize navigation between website sections.
+- Present the system's features and benefits.
+- Provide a responsive user experience.
+
+The public website does not directly communicate with the backend API or manage library records.
+
+## 7. Documentation
+
+The `docs/` directory contains the website documentation:
+
+| Document | Description |
 |---|---|
-| [`test-manager-library-3239137-docs`](https://github.com/code-sena/test-manager-library-3239137-docs) | El spec: `spec-python/` y `spec-.net/` |
-| [`test-manager-library-3239137-api`](https://github.com/code-sena/test-manager-library-3239137-api) | Backend en PHP (Laravel) |
-| [`test-manager-library-3239137-app`](https://github.com/code-sena/test-manager-library-3239137-app) | Frontend en React |
-| [`test-manager-library-3239137-page`](https://github.com/code-sena/test-manager-library-3239137-page) | Sitio público estático de presentación |
-| [`test-manager-library-3239137-infra`](https://github.com/code-sena/test-manager-library-3239137-infra) | Contenedores, red, volúmenes y motor de base de datos vacío |
-| [`test-manager-library-3239137-tool`](https://github.com/code-sena/test-manager-library-3239137-tool) | Utilidades: sembrador de datos de demostración |
+| `website-architecture.md` | Website architecture and organization. |
+| `website-structure.md` | Main sections and page structure. |
+| `content-guidelines.md` | Content organization and writing guidelines. |
+| `visual-design.md` | Visual identity and interface guidelines. |
+| `deployment.md` | Static website deployment considerations. |
+
+## 8. Project Limitations
+
+The public website does not include:
+
+- User authentication.
+- Book registration or management.
+- Member registration or management.
+- Loan registration or returns.
+- Database operations.
+- Administrative dashboards.
+- Electronic payments.
+
+These responsibilities belong to the corresponding application and backend components.
+
+## 9. Related Repositories
+
+- [Documentation and Specifications](https://github.com/code-sena/test-manager-library-3239137-docs)
+- [Backend API](https://github.com/code-sena/test-manager-library-3239137-api)
+- [Frontend Application](https://github.com/code-sena/test-manager-library-3239137-app)
+- [Infrastructure](https://github.com/code-sena/test-manager-library-3239137-infra)
+- [Development Tools](https://github.com/code-sena/test-manager-library-3239137-tool)
